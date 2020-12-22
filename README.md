@@ -2,6 +2,8 @@
 
 A reference project to deploy a React app onto Google Cloud Platform Cloud Run
 
+Inspired by [this](https://cloud.google.com/community/tutorials/deploy-react-nginx-cloud-run) GCP Community blog post
+
 ## Enable APIs
 
 In GCP console, create a new project and enable the following APIs:
