@@ -17,6 +17,8 @@ gcloud builds submit --tag gcr.io/<your_gcp_project_id>/gcp-cloud-run-react # bu
 gcloud  beta run deploy --image gcr.io/<your_gcp_project_id>/gcp-cloud-run-react --platform managed # deploys to Cloud Run!
 ```
 
+- Find the Service URL in terminal output
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
