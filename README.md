@@ -18,7 +18,7 @@ In GCP console, create a new project and enable the following APIs:
 
 ```bash
 gcloud builds submit --tag gcr.io/<your_gcp_project_id>/gcp-cloud-run-react # build the image and push to gcp image registry
-gcloud  beta run deploy --image gcr.io/<your_gcp_project_id>/gcp-cloud-run-react --platform managed # deploy to Cloud Run!
+gcloud beta run deploy --image gcr.io/<your_gcp_project_id>/gcp-cloud-run-react --platform managed # deploy to Cloud Run!
 ```
 
 - Find the Service URL in terminal output
